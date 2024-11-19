@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 0px 20px;
+    max-width: 1500px;
+}
+
+
+/* inicio header */
+
+header {
+    background-color: #8400ff;
+    
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 50px;
+}
+
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+header nav .menu {
+    display: flex;
+    flex: 1;
+}
+
+header nav li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+header nav li a:hover {
+    color: #141414;
+}
+
+header nav .button {
+   display: block;
+   border: 1px solid #141414;
+   padding: 15px 30px;
+   border-radius: 5px;
+   background-color: #141414;
+   text-decoration: none;
+   color : #fff;
+}
+
+header nav .button:hover {
+    opacity: 0.8;
+}
+
+header .logo {
+    width: 100px;
+    height: 100px;
+}
+
+ header .logo img {
+    width: 100%;
+}
+
+/* fim header */
+
+/* inicio principal */
+
+.principal {
+    padding: 100px 0px;
+}
+
+.principal .container {
+    display: flex;
+
+}
+
+.principal .texto, .principal .imagem {
+    flex: 1;
+}
+
+.principal .imagem {
+    text-align: center;
+}
+
+.principal .imagem img {
+    width: 100%;
+}
+
+.principal h1 {
+    font-size: 70px;
+    margin-top: 40px;
+ 
+}
+
+.principal p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+
+.principal .button {
+    display: inline-block;
+    border: 1px solid #8400ff;
+    padding: 15px 60px;
+    border-radius: 5px;
+    background-color: #8400ff;
+    text-decoration: none;
+    color : #ffffff;
+    text-align: center;
+}
+
+.principal .button:hover {
+    opacity: 0.8;
+}
