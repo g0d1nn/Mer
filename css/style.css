@@ -255,6 +255,144 @@ header .logo {
     width: 100%;
 }
 
+/* sobre */
+
+.sobre {
+    padding: 100px 0px;
+}
+
+.sobre .container {
+    display: flex;
+}
+
+.sobre .texto {
+    flex: 1;
+}
+
+.sobre .imagem {
+    flex: 1;
+    text-align: center;
+}
+
+.sobre h1 {
+    font-size: 70px;
+    margin-top: 40px;
+ 
+}
+
+.sobre p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+
+.sobre .imagem img {
+    width: 50%;
+    border-radius: 100px;
+}
+
+/* assinatura */
+
+.assinatura {
+    padding: 100px 0px;
+}
+
+.assinatura .container {
+    display: flex;
+}
+
+.assinatura .texto {
+    flex: 1;
+}
+
+.assinatura .imagem {
+    flex: 1;
+    text-align: center;
+}
+
+.assinatura h1 {
+    font-size: 70px;
+    margin-top: 40px;
+ 
+}
+
+.assinatura p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+
+.assinatura .imagem img {
+    width: 50%;
+    border-radius: 100px;
+}
+
+.assinatura .button {
+    display: inline-block;
+    border: 1px solid #8400ff;
+    padding: 15px 60px;
+    border-radius: 5px;
+    background-color: #8400ff;
+    text-decoration: none;
+    color : #ffffff;
+    text-align: center;
+}
+
+.assinatura .button:hover {
+    opacity: 0.8;
+}
+
+/* planos */
+
+.planos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.plano {
+    background-color: #fff;
+    color: #141414;
+    border-radius: 10px;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.plano h2 {
+    margin-bottom: 15px;
+}
+
+.plano p {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.plano .preco {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plano .button {
+    background-color: #8400ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.plano .button:hover {
+    background-color: #6200cc;
+}
+
 /* saiba mais */
 .saiba-mais {
     display: flex;
@@ -299,4 +437,21 @@ header .logo {
 
 .saiba-mais .button:hover {
     opacity: 0.8;
+}
+
+.saiba-mais p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+
+/* footer */
+
+footer {
+    background-color: #8400ff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    color: #fff;
 }
